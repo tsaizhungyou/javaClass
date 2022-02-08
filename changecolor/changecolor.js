@@ -6,5 +6,5 @@ function changeColor(){
         colorCode = colorCode + hex[colorCode]; 
     }
     document.body.style.backgroundColor = colorCode;
-    document.getElementById(color).innerHTML = colorCode;
+    document.getElementById('color').innerHTML = colorCode;
 }
